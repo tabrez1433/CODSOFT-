@@ -3,6 +3,7 @@ import 'animate.css/animate.min.css';
 import Tilt from 'react-parallax-tilt';
 import classes from './Projects.module.css';
 
+import portfolio from '../images/portfolio.png';
 import calculator from '../images/calculator.png';
 import task from '../images/task-tracker.png';
 import connect4 from '../images/connect4.png';
@@ -21,6 +22,15 @@ const webItem = [
     image: task,
     color: '#0FFFFF',
     githubLink: 'https://github.com/tabrez1433/CODSOFT-task-tracker.git'
+  },
+  {
+    link: 'https://codsoft-tabrez-portfolio.netlify.app/',
+    title: 'Personal Portfolio',
+    techStack: 'vite + react',
+    desc: 'A personal portfolio website built with vite + React to showcase my skills, projects, and contact information.',
+    image: portfolio,
+    color: '#00F31F',
+    githubLink: 'https://github.com/tabrez1433/CODSOFT-Portfolio.git'
   },
   {
     link: 'https://byteuprise-tabrez-weather-app.netlify.app/',
